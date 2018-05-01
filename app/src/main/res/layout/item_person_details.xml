@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.aytengokseninbarutcu.dicetechnicalexercise.Fragments.DisplayDetailByTagFragment"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/textMargin"
+    android:paddingStart="@dimen/textMargin"
+    android:paddingEnd="@dimen/textMargin">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textViewDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewAuthorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingTop="@dimen/titleMargin"/>
+
+    <TextView
+        android:id="@+id/textViewCreated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingTop="@dimen/titleMargin"/>
+
+    <TextView
+        android:id="@+id/textViewSourceUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:paddingTop="@dimen/titleMargin"
+        android:paddingBottom="@dimen/titleMargin"
+        android:clickable="true"
+        android:autoLink="web"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/imageMargin"
+        android:background="@color/diceGrey"
+        android:paddingTop="@dimen/titleMargin"/>
+
+</LinearLayout>

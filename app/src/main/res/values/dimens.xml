@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="textMargin">15dp</dimen>
+    <dimen name="titleMargin">5dp</dimen>
+    <dimen name="frameLayoutMargin">60dp</dimen>
+    <dimen name="buttonMargin">50dp</dimen>
+    <dimen name="imageMargin">2dp</dimen>
+
+</resources>
